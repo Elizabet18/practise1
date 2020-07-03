@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Practise of the second day</title>
+     <style>
+   body{
+    background-color: #CCFFCC; /* Цвет фона веб-страницы */
+   } 
+    </style>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script1.js" defer></script>
+  </head>  
+  <body>
+    <h1>
+      Савицкая Елизавета, практика за второй день
+    </h1>
+    <summary>Задание 2.1</summary>
+    <canvas id = "canvas" width = "600" height = "600"></canvas>
+    <div class="pol">
+        <p>
+          Введите функцию:
+          <input type="text" id="f" size="50" value="x*x - 9" height="20" />
+        </p>
+          Интервалы по Х и У:
+          <p><input type="text" id="xmin" size="1" value="-10" height="20" />
+          <input type="text" id="xmax" size="1" value="10" height="20" />
+        </p>
+        <p>
+          <input type="text" id="ymin" size="1" value="-10" height="20" />
+          <input type="text" id="ymax" size="1" value="10" height="20" />
+        </p>
+        
+          Размеры клеток по X и по У:<p>
+      <input type="text" id="sqx" size="1" value="1" height="20"/>
+      </p>
+          <p><input type="text" id="sqy" size="1" value="1" height="20" />
+        </p>
+      <input class="button" type="button" value="Press Here For Result" 
+             onclick="Write();" 
+           style="background: linear-gradient(to bottom right, #0000AA, #AA0000); color: #AAFFAA;">
+
+      </div>
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
